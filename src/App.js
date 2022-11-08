@@ -9,12 +9,14 @@ import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Particles from "./components/Particles";
 
 function App() {
   return (
     <div>
       <Header />
       <Hero />
+
       <About />
       <Skills />
       <BrowserRouter>
@@ -22,6 +24,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
+      <Particles />
     </div>
   );
 }
