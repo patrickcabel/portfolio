@@ -52,7 +52,6 @@ const About = () => {
           </p>
         </h3>
       </div>
-      About
     </section>
   );
 };

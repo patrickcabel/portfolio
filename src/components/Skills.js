@@ -32,6 +32,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
+
         <div className="grid grid-cols-4 gap-4">
           <div className="flex relative p-3 m-3 justify-center">
             <span
