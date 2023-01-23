@@ -12,7 +12,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-[1100px] px-10 justify-evenly mx-auto items-center snap-center"
+      className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden snap-start"
     >
       <div className="h-screen relative flex overflow-hidden flex-col text-center md:text-left justify-evenly mx-auto items-center px-10 max-w-[550px] md:max-w-[600px] lg:max-w-[1500px] xl:flex-row">
         <div className="px-5 flex flex-col">
@@ -20,7 +20,7 @@ const Skills = () => {
             <h3 className="text-xl uppercase text-gray-500 pb-2 tracking-[12px]">
               My Skills/Technologies
             </h3>
-            <div className="lg:max-w-[600px]">
+            <div className="lg:max-w-[600px] ">
               <p>
                 Thanks to my experience in Zero to Masterys' intensive web
                 development course, I'm able to quickly adapt to using new

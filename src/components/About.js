@@ -5,8 +5,11 @@ const About = () => {
   return (
     <section
       id="about"
-      className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-[1100px] px-10 justify-evenly mx-auto items-center snap-center"
+      className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden snap-start"
     >
+      <h3 className="text-xl uppercase text-gray-500 pb-2 tracking-[12px]">
+        About Me
+      </h3>
       <span
         style={{
           boxSizing: "border-box",
@@ -37,7 +40,7 @@ const About = () => {
             maxWidth: "100%",
           }}
         >
-          <img alt="Patrick" src={Patrick}></img>
+          <img class="w-[300px] h-[200px]" alt="Patrick" src={Patrick}></img>
         </span>
       </span>
       <div class="space-y-10 px-0 md:px-10 max-w-[700px]">

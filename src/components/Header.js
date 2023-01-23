@@ -56,14 +56,12 @@ const Header = () => {
             </a>
           </span>
           <span className="hidden md:inline-flex text-lg mt-3  ">
-            <Link
-              to="/contact"
-              rel="noreferrer"
-              target="_self"
+            <a
+              href="/#contact"
               className="inline items-center w-25 h-16 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
             >
-              contact me
-            </Link>
+              Contact Me
+            </a>
           </span>
         </div>
       </div>

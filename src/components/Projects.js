@@ -13,15 +13,12 @@ const Projects = () => {
             style={{ opacity: "1" }}
           >
             <div class="flex flex-col max-w-[600px] justify-center">
-              <h3
-                class="text-xl uppercase text-black-700 pb-2 tracking-[12px]"
-                style={{ Visibility: "visible" }}
-              >
+              <h3 className="text-xl uppercase text-gray-500 pb-2 tracking-[12px]">
                 Projects
               </h3>
 
               <div class="flex flex-col max-w-[450px] p-5 m-5 border z-10">
-                <div class="col-lg-4 col-sm-12">
+                <div class="flex flex-row items-center space-x-4">
                   <div class="project-wrapper__text load-hidden">
                     <h3 class="text-3xl font-thin tracking-[2px]">
                       BotFriends
