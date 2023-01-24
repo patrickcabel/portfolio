@@ -5,7 +5,7 @@ import RobotIcon from "../assets/Robot.png";
 
 const Projects = () => {
   return (
-    <section id="projects" className="snap-center">
+    <section id="projects" className="snap-start">
       <div class="container">
         <div class="project-wrapper">
           <div

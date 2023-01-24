@@ -46,12 +46,13 @@ const About = () => {
       <div class="space-y-10 px-0 md:px-10 max-w-[700px]">
         <h3 class="text-4xl font-thin">
           <p class="text-base">
-            I'm a full stack web developer who specializes in front end and
-            design. I first fell in love with Front End development when I saw
-            some of the creativity with website designs. I do a lot of drawing
-            and painting, so i was already intune with designing. I'm excited to
-            find out where Web Development can take me. I love problem solving,
-            asking questions, and making something from seemingly nothing.
+            I am a skilled front-end full-stack web developer with a passion for
+            art. With experience in both web development and design, I possess
+            the ability to bring creative ideas to life through code and design.
+            I am able to create visually appealing and user-friendly websites
+            while utilizing the latest technologies and best practices. My
+            experience in both technical and artistic fields makes me a valuable
+            asset to any team.
           </p>
         </h3>
       </div>
