@@ -19,19 +19,19 @@ const Contact = () => {
           href="mailto:pabelnwa@gmail.com"
           className=" inline items-center w-[200px] h-[200px] bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow "
         >
-          <img src={email} />
+          <img src={email} alt="" />
         </a>
         <a
           className="inline items-center w-[200px] h-[200px] bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
           href={resume}
         >
-          <img src={resumeIcon} />
+          <img src={resumeIcon} alt="" />
         </a>
         <a
           className="inline items-center w-[200px] h-[200px] bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
           href="https://www.linkedin.com/in/patrickabelnwachukwu/"
         >
-          <img src={linkedIn} />
+          <img src={linkedIn} alt="" />
         </a>
       </div>
     </section>

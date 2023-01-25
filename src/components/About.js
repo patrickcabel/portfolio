@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Patrick from "../assets/patrick.png";
 const About = () => {
   return (

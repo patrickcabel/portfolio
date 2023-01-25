@@ -177,7 +177,7 @@ const Projects = () => {
                             }}
                           >
                             <img
-                              alt="Project Image"
+                              alt="ProjectImage"
                               class="img-fluid"
                               src={BrainIcon}
                             />
