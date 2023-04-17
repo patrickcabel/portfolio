@@ -1,11 +1,12 @@
 import React from "react";
 import NFTIcon from "../assets/nft.png";
 import BrainIcon from "../assets/brain.png";
-import RobotIcon from "../assets/Robot.png";
+import FoodIcon from "../assets/food.png";
+import BoxIcon from "../assets/box.png";
 
 const Projects = () => {
   return (
-    <section id="projects" className="snap-start">
+    <section id="projects" className="snap-start flex justify-center">
       <div class="container">
         <div class="project-wrapper">
           <div
@@ -20,21 +21,18 @@ const Projects = () => {
               <div class="flex flex-col max-w-[450px] p-5 m-5 border z-10">
                 <div class="flex flex-row items-center space-x-4">
                   <div class="project-wrapper__text load-hidden">
-                    <h3 class="text-3xl font-thin tracking-[2px]">
-                      BotFriends
-                    </h3>
+                    <h3 class="text-3xl font-thin tracking-[2px]">Ecommerce</h3>
                     <div>
                       <p class="mb-4">
-                        This is a beautiful website that lets you find robots
-                        using a search algorithim and intergrates with a
-                        third-party api service that lets you filter robots.
+                        This is a beautiful ecommerce website that uses next.js,
+                        sanity and stripe .
                       </p>
                     </div>
                     <a
                       rel="noreferrer"
                       target="_blank"
                       className="relative flex flex-col w-25 h-16 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow ml-8 scroll-smooth text-left items-center mx-auto px-10 max-w-[400px] md:max-w-[700px] lg:max-w-[1200px]"
-                      href="https://jazzy-bienenstitch-25023d.netlify.app/"
+                      href="https://ecommerce-patrickcabel-git-main-patrickcabel.vercel.app/"
                     >
                       See Live
                     </a>
@@ -42,7 +40,7 @@ const Projects = () => {
                       rel="noreferrer"
                       target="_blank"
                       className="relative flex flex-col w-25 h-16 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow ml-8 scroll-smooth text-left items-center mx-auto px-10 max-w-[400px] md:max-w-[700px] lg:max-w-[1200px]"
-                      href="https://github.com/patrickcabel/BotFreinds/tree/masterv2"
+                      href="https://github.com/patrickcabel/ecommerce/tree/main"
                     >
                       Source Code
                     </a>
@@ -92,7 +90,7 @@ const Projects = () => {
                               maxWidth: "100%",
                             }}
                           >
-                            <img alt="" src={RobotIcon} />
+                            <img alt="" src={BoxIcon} />
                           </span>
                         </span>
                       </div>
@@ -105,28 +103,27 @@ const Projects = () => {
                 <div class="col-lg-4 col-sm-12">
                   <div class="project-wrapper__text load-hidden">
                     <h3 class="text-3xl font-thin tracking-[2px]">
-                      SmartBrain
+                      FoodDelivery
                     </h3>
                     <div>
                       <p class="mb-4">
-                        This uses the lastest ai technology and detects faces in
-                        images uploaded by users, and even draws a detection box
-                        around faces in the image.
+                        This uses the lastest react and tailwind to create a
+                        design for a food delivery service.
                       </p>
                     </div>
                     <a
                       rel="noreferrer"
                       target="_blank"
-                      className="relative flex flex-col w-25 h-16 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow ml-8 scroll-smooth text-left items-center mx-auto px-10 max-w-[400px] md:max-w-[700px] lg:max-w-[1200px]"
-                      href="https://soft-florentine-6aaa88.netlify.app/"
+                      className="relative flex flex-col w-25 h-16 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2  border border-gray-400 rounded shadow ml-8 scroll-smooth text-left items-center mx-auto px-10 max-w-[400px] md:max-w-[700px] lg:max-w-[1200px]"
+                      href="https://patrickcabel.github.io/FoodDelivery/"
                     >
                       See Live
                     </a>
                     <a
                       rel="noreferrer"
                       target="_blank"
-                      className="relative flex flex-col w-25 h-16 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow ml-8 scroll-smooth text-left items-center mx-auto px-10 max-w-[400px] md:max-w-[700px] lg:max-w-[1200px]"
-                      href="#!"
+                      className="relative flex flex-col w-25 h-16 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2  border border-gray-400 rounded shadow ml-8 scroll-smooth text-left items-center mx-auto px-10 max-w-[400px] md:max-w-[700px] lg:max-w-[1200px]"
+                      href="https://github.com/patrickcabel/FoodDelivery/tree/main"
                     >
                       Source Code
                     </a>
@@ -179,7 +176,7 @@ const Projects = () => {
                             <img
                               alt="ProjectImage"
                               class="img-fluid"
-                              src={BrainIcon}
+                              src={FoodIcon}
                             />
                           </span>
                         </span>

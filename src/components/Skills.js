@@ -12,7 +12,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden snap-start"
+      className="h-screen flex justify-center space-y-8   text-center overflow-hidden snap-start"
     >
       <div className="h-screen relative flex overflow-hidden flex-col text-center md:text-left justify-evenly mx-auto items-center px-10 max-w-[550px] md:max-w-[600px] lg:max-w-[1500px] xl:flex-row">
         <div className="px-5 flex flex-col">
@@ -33,30 +33,15 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-4 gap-2">
           <div className="flex relative p-3 m-3 justify-center">
-            <span
-              style={{
-                boxSizing: "border-box",
-                display: "block",
-                overflow: "hidden",
-                width: "initial",
-                height: "initial",
-                background: "none",
-                opacity: "1",
-                border: "0px",
-                margin: "0px",
-                padding: "0px",
-                position: "absolute",
-                inset: "0px",
-              }}
-            >
+            <span>
               <img
                 alt=""
                 src={JavaScriptIcon}
                 decoding="async"
                 data-nimg="fill"
-                className="h-4 w-4 hover:grayscale hover:filter transition duration-1000 ease-in-out "
+                className=" hover:grayscale hover:filter transition duration-1000 ease-in-out "
                 style={{
                   position: "absolute",
                   inset: "0px",
@@ -65,36 +50,20 @@ const Skills = () => {
                   border: "none",
                   margin: "auto",
                   display: "block",
-                  width: "0px",
-                  height: "0px",
-                  minWidth: "100%",
-                  maxWidth: "100%",
-                  minHeight: "100%",
-                  maxHeight: "100%",
+                  maxWidth: "230px",
+                  maxHeight: "95px",
+                  width: "auto",
+                  height: "auto",
+                  resizeMode: "cover",
                 }}
                 sizes="100vw"
               ></img>
               <noscript></noscript>
             </span>
-            <h4 className="relative top-10 pt-6">JavaScript</h4>
+            <h4 className="relative top-10 pt-10">JavaScript</h4>
           </div>
           <div className="flex relative p-3 m-3 justify-center">
-            <span
-              style={{
-                boxSizing: "border-box",
-                display: "block",
-                overflow: "hidden",
-                width: "initial",
-                height: "initial",
-                background: "none",
-                opacity: "1",
-                border: "0px",
-                margin: "0px",
-                padding: "0px",
-                position: "absolute",
-                inset: "0px",
-              }}
-            >
+            <span>
               <img
                 alt=""
                 src={PythonIcon}
@@ -109,35 +78,18 @@ const Skills = () => {
                   border: "none",
                   margin: "auto",
                   display: "block",
-                  width: "0px",
-                  height: "0px",
-                  minWidth: "100%",
-                  maxWidth: "100%",
-                  minHeight: "100%",
-                  maxHeight: "100%",
+                  maxWidth: "230px",
+                  maxHeight: "95px",
+                  width: "auto",
+                  height: "auto",
+                  resizeMode: "cover",
                 }}
               ></img>
             </span>
-            <h4 className="relative top-10 pt-6">Python</h4>
+            <h4 className="relative top-10 pt-10">Python</h4>
           </div>
           <div className="flex relative p-3 m-3 justify-center">
-            <span
-              style={{
-                boxSizing: "border-box",
-                display: "block",
-                overflow: "hidden",
-                width: "initial",
-                height: "initial",
-                background: "none",
-                opacity: "1",
-                border: "0px",
-                margin: "0px",
-                padding: "0px",
-                position: "absolute",
-                inset: "0px",
-              }}
-            >
-              {" "}
+            <span>
               <img
                 alt=""
                 src={ReactIcon}
@@ -150,35 +102,18 @@ const Skills = () => {
                   border: "none",
                   margin: "auto",
                   display: "block",
-                  width: "0px",
-                  height: "0px",
-                  minWidth: "100%",
-                  maxWidth: "100%",
-                  minHeight: "100%",
-                  maxHeight: "100%",
+                  maxWidth: "230px",
+                  maxHeight: "95px",
+                  width: "auto",
+                  height: "auto",
+                  resizeMode: "cover",
                 }}
               ></img>
             </span>
-            <h4 className="relative top-10 pt-6">React</h4>
+            <h4 className="relative top-10 pt-10">React</h4>
           </div>
           <div className="flex relative p-3 m-3 justify-center">
-            <span
-              style={{
-                boxSizing: "border-box",
-                display: "block",
-                overflow: "hidden",
-                width: "initial",
-                height: "initial",
-                background: "none",
-                opacity: "1",
-                border: "0px",
-                margin: "0px",
-                padding: "0px",
-                position: "absolute",
-                inset: "0px",
-              }}
-            >
-              {" "}
+            <span>
               <img
                 alt=""
                 src={ReactNativeIcon}
@@ -191,35 +126,18 @@ const Skills = () => {
                   border: "none",
                   margin: "auto",
                   display: "block",
-                  width: "0px",
-                  height: "0px",
-                  minWidth: "100%",
-                  maxWidth: "100%",
-                  minHeight: "100%",
-                  maxHeight: "100%",
+                  maxWidth: "230px",
+                  maxHeight: "95px",
+                  width: "auto",
+                  height: "auto",
+                  resizeMode: "cover",
                 }}
               ></img>
             </span>
-            <h4 className="relative top-10 pt-2">React-Native</h4>
+            <h4 className="relative top-10 pt-10">React-Native</h4>
           </div>
           <div className="flex relative p-3 m-3 justify-center">
-            <span
-              style={{
-                boxSizing: "border-box",
-                display: "block",
-                overflow: "hidden",
-                width: "initial",
-                height: "initial",
-                background: "none",
-                opacity: "1",
-                border: "0px",
-                margin: "0px",
-                padding: "0px",
-                position: "absolute",
-                inset: "0px",
-              }}
-            >
-              {" "}
+            <span>
               <img
                 alt=""
                 src={NodeIcon}
@@ -232,35 +150,18 @@ const Skills = () => {
                   border: "none",
                   margin: "auto",
                   display: "block",
-                  width: "0px",
-                  height: "0px",
-                  minWidth: "100%",
-                  maxWidth: "100%",
-                  minHeight: "100%",
-                  maxHeight: "100%",
+                  maxWidth: "230px",
+                  maxHeight: "95px",
+                  width: "auto",
+                  height: "auto",
+                  resizeMode: "cover",
                 }}
               ></img>
             </span>
-            <h4 className="relative top-10 pt-2">Node.js</h4>
+            <h4 className="relative top-10 pt-10">Node.js</h4>
           </div>
           <div className="flex relative p-3 m-3 justify-center">
-            <span
-              style={{
-                boxSizing: "border-box",
-                display: "block",
-                overflow: "hidden",
-                width: "initial",
-                height: "initial",
-                background: "none",
-                opacity: "1",
-                border: "0px",
-                margin: "0px",
-                padding: "0px",
-                position: "absolute",
-                inset: "0px",
-              }}
-            >
-              {" "}
+            <span>
               <img
                 alt=""
                 src={TailWindIcon}
@@ -273,35 +174,18 @@ const Skills = () => {
                   border: "none",
                   margin: "auto",
                   display: "block",
-                  width: "0px",
-                  height: "0px",
-                  minWidth: "100%",
-                  maxWidth: "100%",
-                  minHeight: "100%",
-                  maxHeight: "100%",
+                  maxWidth: "230px",
+                  maxHeight: "95px",
+                  width: "auto",
+                  height: "auto",
+                  resizeMode: "cover",
                 }}
               ></img>
             </span>
-            <h4 className="relative top-10 pt-2">tailwind</h4>
+            <h4 className="relative top-10 pt-10">tailwind</h4>
           </div>
           <div className="flex relative p-3 m-3 justify-center">
-            <span
-              style={{
-                boxSizing: "border-box",
-                display: "block",
-                overflow: "hidden",
-                width: "initial",
-                height: "initial",
-                background: "none",
-                opacity: "1",
-                border: "0px",
-                margin: "0px",
-                padding: "0px",
-                position: "absolute",
-                inset: "0px",
-              }}
-            >
-              {" "}
+            <span>
               <img
                 alt=""
                 src={GitIcon}
@@ -314,35 +198,18 @@ const Skills = () => {
                   border: "none",
                   margin: "auto",
                   display: "block",
-                  width: "0px",
-                  height: "0px",
-                  minWidth: "100%",
-                  maxWidth: "100%",
-                  minHeight: "100%",
-                  maxHeight: "100%",
+                  maxWidth: "230px",
+                  maxHeight: "95px",
+                  width: "auto",
+                  height: "auto",
+                  resizeMode: "cover",
                 }}
               ></img>
             </span>
-            <h4 className="relative top-10 pt-2">Git</h4>
+            <h4 className="relative top-10 pt-10">Git</h4>
           </div>
           <div className="flex relative p-3 m-3 justify-center">
-            <span
-              style={{
-                boxSizing: "border-box",
-                display: "block",
-                overflow: "hidden",
-                width: "initial",
-                height: "initial",
-                background: "none",
-                opacity: "1",
-                border: "0px",
-                margin: "0px",
-                padding: "0px",
-                position: "absolute",
-                inset: "0px",
-              }}
-            >
-              {" "}
+            <span>
               <img
                 alt=""
                 src={NextJsIcon}
@@ -355,16 +222,15 @@ const Skills = () => {
                   border: "none",
                   margin: "auto",
                   display: "block",
-                  width: "0px",
-                  height: "0px",
-                  minWidth: "100%",
-                  maxWidth: "100%",
-                  minHeight: "100%",
-                  maxHeight: "100%",
+                  maxWidth: "230px",
+                  maxHeight: "95px",
+                  width: "auto",
+                  height: "auto",
+                  resizeMode: "cover",
                 }}
               ></img>
             </span>
-            <h4 className="relative top-10 pt-2">Next.js</h4>
+            <h4 className="relative top-10 pt-10">Next.js</h4>
           </div>
         </div>
       </div>
