@@ -35,15 +35,3 @@ const copy = {
 export const sites = manifest
   .filter((entry) => copy[entry.slug])
   .map((entry) => ({ ...entry, ...copy[entry.slug] }))
-
-export const marqueeItems = [
-  'React',
-  'Next.js',
-  'JavaScript',
-  'Node',
-  'Vite',
-  'GitHub Pages',
-  'Vercel',
-  'Responsive layout',
-  'Accessibility',
-]

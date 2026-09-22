@@ -2,10 +2,10 @@ import './App.css'
 import About from './components/About'
 import Contact from './components/Contact'
 import Hero from './components/Hero'
-import Marquee from './components/Marquee'
 import Nav from './components/Nav'
 import ScrollProgress from './components/ScrollProgress'
 import Spotlight from './components/Spotlight'
+import Stack from './components/Stack'
 import Work from './components/Work'
 
 export default function App() {
@@ -17,7 +17,7 @@ export default function App() {
       <main>
         <Hero />
         <Work />
-        <Marquee />
+        <Stack />
         <About />
         <Contact />
       </main>

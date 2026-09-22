@@ -1,0 +1,65 @@
+import {
+  SiCss,
+  SiGit,
+  SiGithub,
+  SiHtml5,
+  SiJavascript,
+  SiNextdotjs,
+  SiNetlify,
+  SiNodedotjs,
+  SiOpenjdk,
+  SiPython,
+  SiReact,
+  SiRender,
+  SiSanity,
+  SiSass,
+  SiStripe,
+  SiTailwindcss,
+  SiTypescript,
+  SiVercel,
+  SiVite,
+} from 'react-icons/si'
+
+// Colour is the icon's own brand colour, so each chip reads at a glance.
+export const folders = [
+  {
+    id: 'languages',
+    label: 'Languages',
+    count: 7,
+    items: [
+      { name: 'JavaScript', Icon: SiJavascript, color: '#f7df1e' },
+      { name: 'TypeScript', Icon: SiTypescript, color: '#3178c6' },
+      { name: 'Python', Icon: SiPython, color: '#4b8bbe' },
+      { name: 'Java', Icon: SiOpenjdk, color: '#ed8b00' },
+      { name: 'HTML5', Icon: SiHtml5, color: '#e34f26' },
+      { name: 'CSS', Icon: SiCss, color: '#3d9cf5' },
+      { name: 'Sass', Icon: SiSass, color: '#cc6699' },
+    ],
+  },
+  {
+    id: 'frameworks',
+    label: 'Frameworks',
+    count: 7,
+    items: [
+      { name: 'React', Icon: SiReact, color: '#61dafb' },
+      { name: 'Next.js', Icon: SiNextdotjs, color: '#eaf0ec' },
+      { name: 'Node.js', Icon: SiNodedotjs, color: '#5fa04e' },
+      { name: 'Vite', Icon: SiVite, color: '#8b7cff' },
+      { name: 'Tailwind', Icon: SiTailwindcss, color: '#06b6d4' },
+      { name: 'Sanity', Icon: SiSanity, color: '#f03e2f' },
+      { name: 'Stripe', Icon: SiStripe, color: '#8b85ff' },
+    ],
+  },
+  {
+    id: 'platforms',
+    label: 'Platforms',
+    count: 5,
+    items: [
+      { name: 'Git', Icon: SiGit, color: '#f05032' },
+      { name: 'GitHub', Icon: SiGithub, color: '#eaf0ec' },
+      { name: 'Vercel', Icon: SiVercel, color: '#eaf0ec' },
+      { name: 'Netlify', Icon: SiNetlify, color: '#00c7b7' },
+      { name: 'Render', Icon: SiRender, color: '#46e3b7' },
+    ],
+  },
+]
