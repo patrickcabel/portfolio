@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "hvac-chinook",
+    "name": "Chinook Heating & Cooling",
+    "liveUrl": "https://patrickcabel.github.io/hvac-chinook/",
+    "repoUrl": "https://github.com/patrickcabel/hvac-chinook",
+    "image": "/previews/hvac-chinook.jpg",
+    "width": 1200,
+    "height": 900,
+    "bytes": 150050
+  },
+  {
+    "slug": "plumbing-mission",
+    "name": "Mission Plumbing",
+    "liveUrl": "https://patrickcabel.github.io/plumbing-mission/",
+    "repoUrl": "https://github.com/patrickcabel/plumbing-mission",
+    "image": "/previews/plumbing-mission.png",
+    "width": 1200,
+    "height": 900,
+    "bytes": 74786
+  },
+  {
+    "slug": "landscape-foothills",
+    "name": "Foothills Landscape",
+    "liveUrl": "https://patrickcabel.github.io/landscape-foothills/",
+    "repoUrl": "https://github.com/patrickcabel/landscape-foothills",
+    "image": "/previews/landscape-foothills.jpg",
+    "width": 1200,
+    "height": 900,
+    "bytes": 165985
+  },
+  {
+    "slug": "kitchen-bridgeland",
+    "name": "Bridgeland Table",
+    "liveUrl": "https://patrickcabel.github.io/kitchen-bridgeland/",
+    "repoUrl": "https://github.com/patrickcabel/kitchen-bridgeland",
+    "image": "/previews/kitchen-bridgeland.jpg",
+    "width": 1200,
+    "height": 900,
+    "bytes": 256251
+  },
+  {
+    "slug": "dental-kensington",
+    "name": "Kensington Dental Co.",
+    "liveUrl": "https://patrickcabel.github.io/dental-kensington/",
+    "repoUrl": "https://github.com/patrickcabel/dental-kensington",
+    "image": "/previews/dental-kensington.jpg",
+    "width": 1200,
+    "height": 900,
+    "bytes": 167720
+  },
+  {
+    "slug": "painting-truepro",
+    "name": "TruePro Painting Co.",
+    "liveUrl": "https://patrickcabel.github.io/painting-truepro/",
+    "repoUrl": "https://github.com/patrickcabel/painting-truepro",
+    "image": "/previews/painting-truepro.jpg",
+    "width": 1200,
+    "height": 900,
+    "bytes": 177306
+  }
+]
