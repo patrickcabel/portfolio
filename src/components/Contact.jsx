@@ -35,7 +35,11 @@ export default function Contact() {
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.linkedin.com/in/patrickabelnwachukwu/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 LinkedIn
               </a>
             </li>
