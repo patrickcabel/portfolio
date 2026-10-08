@@ -3,7 +3,7 @@ import { useRef } from 'react'
 
 const spring = { stiffness: 220, damping: 18, mass: 0.4 }
 
-export default function MagneticLink({ href, className, children, strength = 8 }) {
+export default function MagneticLink({ href, className, children, strength = 8, ...rest }) {
   const reduced = useReducedMotion()
   const ref = useRef(null)
   const x = useSpring(useMotionValue(0), spring)
@@ -29,6 +29,7 @@ export default function MagneticLink({ href, className, children, strength = 8 }
       href={href}
       className={className}
       style={{ x, y }}
+      {...rest}
       onPointerMove={onMove}
       onPointerLeave={reset}
       whileTap={{ scale: 0.97 }}
