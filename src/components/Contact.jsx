@@ -28,6 +28,15 @@ export default function Contact() {
             </a>
           </Reveal>
 
+          <Reveal delay={0.21}>
+            <div className="contact-phone-wrap">
+              <span className="contact-phone-label">Phone</span>
+              <a className="contact-phone" href="tel:+15874361510">
+                (587) 436-1510
+              </a>
+            </div>
+          </Reveal>
+
           <Reveal as="ul" className="contact-links" delay={0.24}>
             <li>
               <a href="https://github.com/patrickcabel" target="_blank" rel="noreferrer">
